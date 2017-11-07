@@ -19,6 +19,10 @@ end
 
 get '/named-cat' do
   p params
-  @name = params[:name] + params[:surname] 
+  @name = params[:name] 
   erb(:index)
+end
+
+get '/experiment' do
+
 end
